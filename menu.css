@@ -1,0 +1,89 @@
+.menu{
+    margin: auto;
+    margin-left: 13px;
+    margin-top: 10%;
+}
+
+.menu-list, .menu-link{
+    list-style: none;
+    text-decoration: none;
+    color: rgba(218, 218, 218, 0.72);
+    padding: 5px;
+}
+
+.menu-list{
+    border-bottom: 1px rgba(0, 0, 0, 0.556) solid;
+    padding: 16px 20px;
+    text-align:center ;
+}
+
+.menu-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+a.selected{
+    color: rgb(255, 255, 255);
+}
+
+a.selected-o{
+    color: rgb(255, 255, 255);
+}
+
+a.selected-tw{
+    color: rgb(255, 255, 255);
+}
+
+a.selected-th{
+    color: rgb(255, 255, 255);
+}
+
+.img_menu{
+    background-image: url(menu.svg);
+    display: block;
+    width: 38px;
+    height: 40px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.btn-menu{
+    position: absolute;
+    margin-left: 250px;
+    background-color: indianred;
+    padding-top: 0px;
+    padding-left: 7px;
+    border-radius: 2px 2px 2px;
+    width: 50px;
+    height: 36px;
+    transition: .6s;
+    z-index: 3;
+}
+
+/* Agregando funcionalidades al menu */
+
+#btn{
+    display: none;
+}
+
+.menu_hide{
+  transform: translate(-300px);
+  transition: .7s ease;
+}
+
+#btn-menuT{
+    transform: translate(-250px);
+    transition: .6s;
+    background-color: rgb(181, 136, 136);
+}
+
+.img_menuT{
+    background-image: url(menu.svg);
+    position: relative;
+    right: 3px;
+    display: block;
+    width: 38px;
+    height: 40px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition: .6s;
+}

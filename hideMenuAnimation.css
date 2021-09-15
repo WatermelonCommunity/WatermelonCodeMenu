@@ -1,0 +1,19 @@
+.hide-menu_animation{
+    position: absolute;
+    margin-left: 260px;
+    padding-top: 50px;
+    filter: opacity(.3);
+    animation: 1s hide 3;
+    font-size: 13px;
+}
+
+@keyframes hide {
+    30%{
+        transform: translateY(20px);
+    }
+}
+
+.noneText{
+    position: absolute;
+    transform: translate(-300px);
+}
